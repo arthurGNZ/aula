@@ -1,0 +1,151 @@
+aluno@labcc:~$ git clone https://github.com/arthurGNZ/aula
+Cloning into 'aula'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+aluno@labcc:~$ la -la
+total 340
+drwxr-x--- 40 aluno aluno   4096 jun 29 16:37  .
+drwxr-xr-x  4 root  root    4096 set 15  2022  ..
+drwxrwxr-x  5 aluno aluno   4096 set 15  2022  .android
+drwxrwxr-x  3 aluno aluno   4096 set 15  2022  Android
+drwxrwxr-x  3 aluno aluno   4096 set 15  2022  AndroidStudioProjects
+drwxr-xr-x  2 aluno aluno   4096 jun 16 13:49 'Área de Trabalho'
+drwxrwxr-x  3 aluno aluno   4096 jun 29 16:37  aula
+-rw-------  1 aluno aluno  10014 jun 16 14:52  .bash_history
+-rw-r--r--  1 aluno aluno    220 set 13  2022  .bash_logout
+-rw-r--r--  1 aluno aluno   3771 set 13  2022  .bashrc
+drwx------ 27 aluno aluno   4096 jun 19 20:19  .cache
+drwxrwxr-x  3 aluno aluno   4096 mai 16 12:22  cc
+drwx------ 31 aluno aluno   4096 jun 19 19:22  .config
+drwxr-xr-x  9 aluno aluno   4096 mai 24 09:31  Documentos
+drwxrwxr-x  3 aluno aluno   4096 mai  8 20:41  .dotnet
+drwxr-xr-x  2 aluno aluno   4096 jun 28 09:29  Downloads
+-rw-------  1 aluno aluno     16 set 13  2022  .emulator_console_auth_token
+-rw-r--r--  1 aluno aluno   1746 fev  1 20:18 'e seus conteúdos removidos com o'
+drwxrwxr-x 11 aluno aluno   4096 dez 21  2022  .gem
+-rw-rw-r--  1 aluno aluno    152 mai 12 17:08  .gitconfig
+drwx------  2 aluno aluno   4096 set 15  2022  .gnupg
+drwxrwxr-x  8 aluno aluno   4096 set 15  2022  .gradle
+-rw-rw-r--  1 aluno aluno     16 set 14  2022  .hidden
+drwxr-xr-x  4 aluno aluno   4096 jun  2 19:53  Imagens
+drwxrwxr-x  2 aluno aluno   4096 jun  1 17:33  infoBasica
+drwxrwxr-x  4 aluno aluno   4096 set 15  2022  .java
+-rw-r--r--  1 aluno aluno      0 jun  1 17:07  .lesshsQ
+-rw-------  1 aluno aluno     20 fev 15 21:36  .lesshst
+drwx------  5 aluno aluno   4096 nov 30  2022  .local
+drwxrwxr-x  6 aluno aluno   4096 dez  3  2021  lolcat-master
+drwxrwxr-x  2 aluno aluno   4096 out 31  2022  lucasH
+drwxrwxr-x  3 aluno aluno   4096 set 15  2022  .m2
+-rw-rw-r--  1 aluno aluno 121154 dez 21  2022  master.zip
+drwxr-xr-x  2 aluno aluno   4096 set 15  2022  Modelos
+drwxr-xr-x  2 aluno aluno   4096 set 15  2022  Música
+drwx------  3 aluno aluno   4096 set 15  2022  .mysql
+-rw-------  1 aluno aluno     48 set 14  2022  .mysql_history
+drwxrwxr-x  4 aluno aluno   4096 jun 13 15:55  NetBeansProjects
+drwx------  5 aluno aluno   4096 set 15  2022  .pgadmin
+drwx------  3 aluno aluno   4096 set 15  2022  .pki
+-rw-r--r--  1 aluno aluno    807 set 13  2022  .profile
+-rw-------  1 aluno aluno     12 set 14  2022  .psql_history
+drwxr-xr-x  2 aluno aluno   4096 set 15  2022  Público
+drwx------  8 aluno aluno   4096 dez 21  2022  snap
+drwx------  2 aluno aluno   4096 mai 15 19:33  .ssh
+-rw-r--r--  1 aluno aluno      0 set 13  2022  .sudo_as_admin_successful
+-rw-rw-r--  1 aluno aluno     24 fev  1 21:35  teste
+drwxrwxr-x  2 aluno aluno   4096 jun 16 14:01  trabalho
+drwxrwxr-x  3 aluno aluno   4096 jun 16 14:11  uffs
+drwxrwxr-x  3 aluno aluno   4096 jun 16 14:05  uffsbackup
+drwxr-xr-x  2 aluno aluno   4096 set 15  2022  Vídeos
+drwxrwxr-x  3 aluno aluno   4096 set 15  2022  .vscode
+drwxrwxr-x  2 aluno aluno   4096 mai 15 19:34  .vscode-cli
+drwxrwxr-x  3 aluno aluno   4096 fev  8 20:47  Walbens-e-Jean
+drwxrwxr-x  3 aluno aluno   4096 fev  8 20:48  walbensjean
+-rw-rw-r--  1 aluno aluno    252 dez 21  2022  .wget-hsts
+aluno@labcc:~$ cd ./aula
+aluno@labcc:~/aula$ ls -la
+total 16
+drwxrwxr-x  3 aluno aluno 4096 jun 29 16:37 .
+drwxr-x--- 40 aluno aluno 4096 jun 29 16:37 ..
+drwxrwxr-x  8 aluno aluno 4096 jun 29 16:37 .git
+-rw-rw-r--  1 aluno aluno    6 jun 29 16:37 README.md
+aluno@labcc:~/aula$ nano Reade.md
+aluno@labcc:~/aula$ nano README.md
+aluno@labcc:~/aula$ nano README.md
+aluno@labcc:~/aula$ ls -la
+total 16
+drwxrwxr-x  3 aluno aluno 4096 jun 29 16:46 .
+drwxr-x--- 40 aluno aluno 4096 jun 29 16:37 ..
+drwxrwxr-x  8 aluno aluno 4096 jun 29 16:37 .git
+-rw-rw-r--  1 aluno aluno   21 jun 29 16:46 README.md
+aluno@labcc:~/aula$ git status
+No ramo main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (utilize "git add <arquivo>..." para atualizar o que será submetido)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+
+nenhuma modificação adicionada à submissão (utilize "git add" e/ou "git commit -a")
+aluno@labcc:~/aula$ git restore README.md
+aluno@labcc:~/aula$ nano README.md
+aluno@labcc:~/aula$ git status
+No ramo main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (utilize "git add <arquivo>..." para atualizar o que será submetido)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+
+nenhuma modificação adicionada à submissão (utilize "git add" e/ou "git commit -a")
+aluno@labcc:~/aula$ git add .
+aluno@labcc:~/aula$ git status
+No ramo main
+Your branch is up to date with 'origin/main'.
+
+Mudanças a serem submetidas:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   README.md
+
+aluno@labcc:~/aula$ git config -global user.name "arthurGNZ"
+error: did you mean `--global` (with two dashes)?
+aluno@labcc:~/aula$ git config --global user.name "arthurGNZ"
+aluno@labcc:~/aula$ git config --global user.email "grasnieviczarthur@gmail.com"
+aluno@labcc:~/aula$ git commit -m "Commit aula 26/07"
+[main a0c7adc] Commit aula 26/07
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+aluno@labcc:~/aula$  git status
+No ramo main
+Seu ramo está à frente de 'origin/main' por 1 submissão.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+aluno@labcc:~/aula$ git push
+Username for 'https://github.com': arthurGNZ
+Password for 'https://arthurGNZ@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/arthurGNZ/aula/'
+aluno@labcc:~/aula$ git push origin
+Username for 'https://github.com': arthurGNZ
+Password for 'https://arthurGNZ@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/arthurGNZ/aula/'
+aluno@labcc:~/aula$ git push
+Username for 'https://github.com': arthurGNZ
+Password for 'https://arthurGNZ@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 268 bytes | 268.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/arthurGNZ/aula
+   5acc1f9..a0c7adc  main -> main
+aluno@labcc:~/aula$ git status
+No ramo main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+aluno@labcc:~/aula$ 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
